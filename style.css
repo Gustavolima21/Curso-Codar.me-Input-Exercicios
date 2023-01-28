@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d4e2;
+    font-size: 10px;
+}
+
+.card-pix {
+    border-radius: 20px;
+    width: 200px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.description p {
+    color: #787490;
+    font-size: 18px;
+    width: 100px;
+}
+
+.value p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-pix:hover {
+    background-color: #18161f;
+    color: #ffffff;
+}
+
+.card-pix:hover svg path {
+    stroke: #ffffff;
+}
+
+
+
